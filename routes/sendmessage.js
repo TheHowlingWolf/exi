@@ -28,7 +28,6 @@ module.exports = async function sendText(hospital, details) {
     console.log(messages);
     console.log(`MESSAGE WILL BE SENT TO ${mobile1} , ${mobile2}, ${mobile3}`);
 
-    return;
     var options = {
         "method": "POST",
         "hostname": "api.msg91.com",
