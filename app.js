@@ -13,6 +13,7 @@ var app = express();
 
 app.enable('trust proxy');
 app.use(secure);
+
 //passport config
 require('./config/passport')(passport);
 

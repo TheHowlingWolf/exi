@@ -269,8 +269,4 @@ async function findAllDetails(UserData) {
     console.log(messages);
 
     return nearbyDetails;
-
-
-
-
 }
